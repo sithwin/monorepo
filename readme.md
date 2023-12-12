@@ -23,3 +23,18 @@ pnpm add nx -D -w
 # Run the package
 npx nx build shared-ui
 npx nx dev mono-app
+
+# Add nx.json
+npx nx build shared-ui
+- add trgetDefults
+
+# Task Depedency
+
+# Get the graph
+npx nx graph
+
+# Build Command
+ npx nx affected:build --base=origin/master~1 --head=origin/master
+
+# Build all project
+npx nx run-many --target=build --all

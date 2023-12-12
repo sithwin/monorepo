@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build shared-ui",
-    "startTime": "2023-12-11T10:05:05.772Z",
-    "endTime": "2023-12-11T10:05:07.027Z",
+    "command": "nx affected:build --base=origin/master~1 --head=origin/master",
+    "startTime": "2023-12-12T08:37:13.249Z",
+    "endTime": "2023-12-12T08:37:15.831Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,20 @@
       "taskId": "shared-ui:build",
       "target": "build",
       "projectName": "shared-ui",
-      "hash": "17919782519030988194",
-      "startTime": "2023-12-11T10:05:05.780Z",
-      "endTime": "2023-12-11T10:05:07.026Z",
+      "hash": "12901792026126271536",
+      "startTime": "2023-12-12T08:37:13.257Z",
+      "endTime": "2023-12-12T08:37:13.293Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "mono-app:build",
+      "target": "build",
+      "projectName": "mono-app",
+      "hash": "2663077324258091737",
+      "startTime": "2023-12-12T08:37:13.304Z",
+      "endTime": "2023-12-12T08:37:15.827Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

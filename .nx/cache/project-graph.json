@@ -10,6 +10,14 @@
         "projectType": "library",
         "targets": {
           "build": {
+            "inputs": [
+              "noMarkdown",
+              "^noMarkdown"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "cache": true,
             "executor": "nx:run-script",
             "options": {
               "script": "build"
@@ -39,6 +47,9 @@
         "projectType": "library",
         "targets": {
           "dev": {
+            "dependsOn": [
+              "^build"
+            ],
             "executor": "nx:run-script",
             "options": {
               "script": "dev"
@@ -46,6 +57,14 @@
             "configurations": {}
           },
           "build": {
+            "inputs": [
+              "noMarkdown",
+              "^noMarkdown"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "cache": true,
             "executor": "nx:run-script",
             "options": {
               "script": "build"
