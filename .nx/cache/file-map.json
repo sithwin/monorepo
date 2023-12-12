@@ -1,0 +1,135 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.0",
+  "deps": {
+    "nx": "^17.2.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/Button.tsx",
+          "hash": "15701511338703652587"
+        },
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "14615795630269189783"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "5526786055031511953",
+          "deps": [
+            "npm:build",
+            "npm:react",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "16853535227062972396"
+        }
+      ],
+      "mono-app": [
+        {
+          "file": "apps/mono-app/.eslintrc.cjs",
+          "hash": "18224317155734308275"
+        },
+        {
+          "file": "apps/mono-app/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/mono-app/README.md",
+          "hash": "11460966644741158790"
+        },
+        {
+          "file": "apps/mono-app/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "apps/mono-app/package.json",
+          "hash": "732526162168704501",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "shared-ui",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:typescript",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "apps/mono-app/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/mono-app/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "apps/mono-app/src/App.tsx",
+          "hash": "788594719654261797"
+        },
+        {
+          "file": "apps/mono-app/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/mono-app/src/index.css",
+          "hash": "957896817323665666"
+        },
+        {
+          "file": "apps/mono-app/src/main.tsx",
+          "hash": "12948679595907665671"
+        },
+        {
+          "file": "apps/mono-app/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/mono-app/tsconfig.json",
+          "hash": "14032556756270793734"
+        },
+        {
+          "file": "apps/mono-app/tsconfig.node.json",
+          "hash": "8586866767247417612"
+        },
+        {
+          "file": "apps/mono-app/vite.config.ts",
+          "hash": "7008402861428644331"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "13818205667737638155"
+      },
+      {
+        "file": "package.json",
+        "hash": "14848906267999375370"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "13558781799107061599"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "3097983303653545603"
+      },
+      {
+        "file": "readme.md",
+        "hash": "15244991428017761238"
+      }
+    ]
+  }
+}
